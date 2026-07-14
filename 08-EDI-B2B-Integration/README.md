@@ -2,7 +2,7 @@
 
 **JD coverage:** "EDI formats (X12, EDIFACT, SWIFT…)", "EDI Integration Design (AS2, SFTP), Archiving, Re-processing, Partner Management".
 
-**This is a differentiator module for the JCI role.** A manufacturer like Johnson Controls exchanges purchase orders, invoices, ship notices with hundreds of suppliers/customers via EDI. Many AIS developers are weak here — being strong at EDI makes you the candidate.
+**This is a differentiator module for enterprise AIS roles.** A manufacturer exchanges purchase orders, invoices, ship notices with hundreds of suppliers/customers via EDI. Many AIS developers are weak here — being strong at EDI makes you the candidate.
 
 ---
 
@@ -24,7 +24,7 @@ GS*PO*SENDERID*RECEIVERID*20260714*1015*101*X*004010~
 ST*850*0001~
 BEG*00*SA*PO-4512**20260714~          <- purpose, type, PO number, date
 REF*DP*038~
-N1*ST*Johnson Controls Plant 7*92*P7~ <- ship-to party
+N1*ST*Acme Plant 7*92*P7~ <- ship-to party
 PO1*1*100*EA*9.75**BP*SKU-8871~       <- line 1: qty 100, each, $9.75, buyer part
 PO1*2*50*EA*4.20**BP*SKU-2231~
 CTT*2~                                 <- total line count
@@ -43,7 +43,7 @@ IEA*1*000000101~
 - **997 / 999** = functional ack (did the transaction set parse against the standard? 999 adds detail, used in HIPAA).
 - Business-level response (e.g., 855 PO Acknowledgment) is a *separate business document*, not an EDI ack. Distinguish these clearly.
 
-**SWIFT** (finance): MT messages (MT103 payments…) / ISO 20022 (MX). Logic Apps has SWIFT MT encode/decode connectors (Standard). For JCI-type roles, know it exists + that it's treasury/banking integration; X12/EDIFACT carry the interview weight.
+**SWIFT** (finance): MT messages (MT103 payments…) / ISO 20022 (MX). Logic Apps has SWIFT MT encode/decode connectors (Standard). For manufacturing/enterprise roles, know it exists + that it's treasury/banking integration; X12/EDIFACT carry the interview weight.
 
 📖 X12 primer: [x12.org](https://x12.org/) · [EDI on Azure overview](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-b2b)
 
@@ -66,8 +66,8 @@ Tiers: Free (1/region, dev), Basic, Standard (more artifacts, SLA). Logic Apps *
 ```mermaid
 flowchart LR
     subgraph IA["Integration Account"]
-        P[Partners<br/>Contoso ZZ:CONTOSO<br/>JCI ZZ:JCIHOST]
-        AG[Agreements<br/>X12: Contoso→JCI<br/>AS2: Contoso→JCI]
+        P[Partners<br/>Contoso ZZ:CONTOSO<br/>HostCo ZZ:HOSTCO]
+        AG[Agreements<br/>X12: Contoso→HostCo<br/>AS2: Contoso→HostCo]
         SCH[Schemas X12 4010 850/855/856/810]
         MAP[Maps XSLT]
         CERT[Certificates]
@@ -180,6 +180,6 @@ Onboarding checklist you can recite: exchange IDs/qualifiers + certs + endpoints
 8. Archiving strategy for EDI — what, where, how long, and why raw bytes?
 9. A partner says "we sent the PO but got no order" — your triage steps? (MDN received? 997 status? decode tracking? DLQ? archive lookup by control number)
 10. How do you onboard 50 new partners efficiently? (templated agreements, IaC automation, migration tooling)
-11. X12 vs EDIFACT structural differences? When would JCI use each? (US suppliers vs EU/APAC)
+11. X12 vs EDIFACT structural differences? When would a North American manufacturer use each? (US suppliers vs EU/APAC)
 12. How would you upgrade a partner from 4010 to 5010 without downtime? (parallel agreement, test indicator, cutover)
 13. Compare Anypoint Partner Manager to Integration Account. (similar model; IA is artifact-centric, tracking is DIY-ish; PM has slicker UI, IA is cheaper/deeper in Azure)

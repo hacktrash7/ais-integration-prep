@@ -106,8 +106,8 @@ Deployment diagram example (UML-style, as Mermaid):
 flowchart LR
     subgraph SubProd["Subscription: prod"]
         subgraph RGCore["rg-integration-core-prod (region: East US)"]
-            APIMP[apim-jci-prod<br/>Premium, zone redundant]
-            SBP[sb-jci-prod<br/>Premium, geo-DR paired]
+            APIMP[apim-contoso-prod<br/>Premium, zone redundant]
+            SBP[sb-contoso-prod<br/>Premium, geo-DR paired]
         end
         subgraph RGOrders["rg-orders-prod"]
             LAP[la-orders-prod<br/>Standard WS2, 2 instances]
@@ -115,7 +115,7 @@ flowchart LR
         end
     end
     subgraph SubDR["Region: Central US (DR)"]
-        SBDR[sb-jci-dr<br/>geo-DR secondary]
+        SBDR[sb-contoso-dr<br/>geo-DR secondary]
         APIMDR[apim gateway unit]
     end
     SBP -.metadata failover.-> SBDR

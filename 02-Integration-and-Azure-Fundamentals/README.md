@@ -51,8 +51,8 @@ flowchart TD
 ```mermaid
 flowchart TD
     T[Microsoft Entra Tenant<br/>your company's identity boundary] --> MG[Management Groups<br/>optional grouping]
-    MG --> S1[Subscription: jci-integration-prod<br/>billing + policy boundary]
-    MG --> S2[Subscription: jci-integration-nonprod]
+    MG --> S1[Subscription: contoso-integration-prod<br/>billing + policy boundary]
+    MG --> S2[Subscription: contoso-integration-nonprod]
     S1 --> RG1[Resource Group: rg-orders-prod<br/>lifecycle boundary]
     S1 --> RG2[Resource Group: rg-shared-prod]
     RG1 --> R1[Logic App]

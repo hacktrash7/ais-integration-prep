@@ -28,7 +28,7 @@ flowchart LR
 Take Project 1's intake + a new "order status" Function → front both with APIM: products (Bronze rate-limited / Gold), subscription keys **and** Entra OAuth via `validate-jwt`, response caching on status GET, XML→JSON policy for one legacy consumer, v1/v2 versioning of the API, developer portal published. Postman collection with token fetch + tests.
 
 ## Project 3 — EDI Trading Partner Exchange (after Phase 4)
-**Skills:** Integration Account, X12, AS2, archiving, reprocessing. **The JCI-differentiator project.**
+**Skills:** Integration Account, X12, AS2, archiving, reprocessing. **The enterprise-differentiator project.**
 
 Play two companies (Fabrikam supplier, HostCo buyer): inbound 850 over AS2 → decode → 997 → map to canonical JSON → "SAP stub" API → outbound 855 encoded back. Archive raw + decoded to Blob by partner/doctype/controlnumber; build the failure drill (bad segment → 997 rejection → alert → fix → resubmit from archive).
 
@@ -44,7 +44,7 @@ Retrofit: Bicep for all infra; YAML pipelines (build+test+deploy, dev→test wit
 
 **Demo line:** "A commit deploys, tests, and is observable in production within minutes — here's the dashboard."
 
-## Project 6 — Capstone: "JCI-style" End-to-End (Phase 6)
+## Project 6 — Capstone: Enterprise End-to-End (Phase 6)
 **Skills:** everything + HLD/LLD + cost model.
 
 Scenario (invent realistic details): *Suppliers send EDI orders (AS2 + SFTP); internal Salesforce (mock) creates service requests; on-prem "SAP" (mock API) is the ERP; customers consume a real-time order-status API; ops needs dashboards; security requires OAuth + managed identity everywhere; finance wants a cost model.*

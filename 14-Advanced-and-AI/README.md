@@ -86,7 +86,7 @@ Microsoft's own: **Logic Apps templates gallery**, **APIM/Integration landing-zo
 - **Containers/AKS/Container Apps:** where custom microservices land when Functions aren't enough; Logic Apps Standard can run on Arc/containers.
 - **Dapr** (Container Apps): pub/sub + bindings in the microservices world — conceptually your EIPs again.
 - **Kafka / Confluent:** Event Hubs speaks Kafka protocol; hybrid estates often bridge them.
-- **BizTalk migration:** many AIS programs *are* BizTalk→AIS migrations (Integration Account is BizTalk's cloud descendant — schemas/maps/orchestrations map to IA artifacts/Logic Apps). If JCI has BizTalk legacy this is gold: mention the **BizTalk migration tool** and strangler-fig approach.
+- **BizTalk migration:** many AIS programs *are* BizTalk→AIS migrations (Integration Account is BizTalk's cloud descendant — schemas/maps/orchestrations map to IA artifacts/Logic Apps). If your employer has BizTalk legacy this is gold: mention the **BizTalk migration tool** and strangler-fig approach.
 - **Power Platform:** Power Automate shares the Logic Apps engine — know the governance boundary.
 
 ---

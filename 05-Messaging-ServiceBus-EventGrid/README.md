@@ -125,7 +125,7 @@ vs the old way (SFTP polling trigger every N minutes): Event Grid is instant, ch
 
 ## 4. Event Hubs in 10 minutes (awareness level)
 
-Kafka-compatible event streaming: **partitions**, **consumer groups**, **offsets/checkpoints**, retention (1–90 days) with replay, Capture (auto-archive to Blob). AIS relevance: high-volume telemetry ingestion feeding Functions/Stream Analytics. Know when to *say* "that's an Event Hubs job, not Service Bus" — e.g., 50k sensor readings/sec from building controllers (very Johnson Controls!).
+Kafka-compatible event streaming: **partitions**, **consumer groups**, **offsets/checkpoints**, retention (1–90 days) with replay, Capture (auto-archive to Blob). AIS relevance: high-volume telemetry ingestion feeding Functions/Stream Analytics. Know when to *say* "that's an Event Hubs job, not Service Bus" — e.g., 50k sensor readings/sec from IoT devices or building-management systems.
 
 📖 [Event Hubs overview](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about)
 

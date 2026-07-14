@@ -24,7 +24,7 @@ flowchart TD
 
 ---
 
-## How this maps to the Johnson Controls JD
+## How this maps to the target job description
 
 The JD you shared is a **skills ladder**: Developer → Sr. Developer → Architect. Here's the exact mapping:
 
@@ -51,11 +51,11 @@ The JD you shared is a **skills ladder**: Developer → Sr. Developer → Archit
 | Integration complexity, Effort estimations | Architect | 13 |
 | E2E architecture, Tool Selection, Reusable Assets, Accelerators, Templates, Automation | Architect | 13, 14 |
 
-> **Note on SWIFT:** SWIFT is a financial-messaging standard; Azure supports it via Logic Apps SWIFT connectors (MT encoder/decoder). Unless Johnson Controls does treasury integrations, X12/EDIFACT matter far more for a building-tech company (orders, invoices, ASNs with suppliers). Module 08 covers all three with weight on X12.
+> **Note on SWIFT:** SWIFT is a financial-messaging standard; Azure supports it via Logic Apps SWIFT connectors (MT encoder/decoder). Unless your employer does treasury integrations, X12/EDIFACT matter far more for manufacturing/building-tech companies (orders, invoices, ASNs with suppliers). Module 08 covers all three with weight on X12.
 
 ### What *other companies* add on top of this JD (from real 2025–2026 job postings)
 
-These showed up repeatedly in AIS job descriptions at NTT DATA, Cloud Kinetics, Accenture, Cognizant, EY, and product companies — **the JCI JD doesn't list them explicitly, but interviews will ask**:
+These showed up repeatedly in AIS job descriptions at NTT DATA, Cloud Kinetics, Accenture, Cognizant, EY, and product companies — **many enterprise JDs don't list them explicitly, but interviews will ask**:
 
 1. **Infrastructure as Code: Bicep / ARM templates / Terraform** → covered in Module 10.
 2. **Event Grid vs Event Hubs vs Service Bus decision-making** → Module 05 (a top-5 interview question everywhere).
@@ -114,7 +114,7 @@ These showed up repeatedly in AIS job descriptions at NTT DATA, Cloud Kinetics, 
   - Given any source/target payload pair, you can pick the right transformation tool and justify it.
 
 ### Phase 4 — Enterprise & B2B
-**Goal:** The differentiator skills for the JCI role — EDI + security.
+**Goal:** The differentiator skills for enterprise AIS roles — EDI + security.
 
 - **Study:** Modules 08, 09.
 - **Labs:**

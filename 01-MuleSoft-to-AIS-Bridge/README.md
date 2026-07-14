@@ -200,4 +200,4 @@ In interviews, explicitly saying *"I applied API-led layering from my MuleSoft b
 - **Single unified platform/IDE** — Azure spreads across portal + VS Code + DevOps; more surface area.
 - **Uniform connector experience** — Azure connectors vary in quality between managed vs built-in.
 
-When asked "MuleSoft vs AIS?" — give a balanced answer: AIS wins on cost model, Azure-native ecosystem, elasticity, and Microsoft-stack alignment; MuleSoft wins on unified developer experience and DataWeave. The right answer is "it depends on the enterprise's cloud strategy" — JCI is a Microsoft shop, hence AIS.
+When asked "MuleSoft vs AIS?" — give a balanced answer: AIS wins on cost model, Azure-native ecosystem, elasticity, and Microsoft-stack alignment; MuleSoft wins on unified developer experience and DataWeave. The right answer is "it depends on the enterprise's cloud strategy" — if the company is Azure-first, AIS is the natural fit.

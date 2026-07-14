@@ -1,11 +1,11 @@
 # 16 — The AIS Interview Guide
 
-Everything you need to interview for AIS roles — at Johnson Controls **and** elsewhere (the same interview happens at NTT DATA, Accenture, Cognizant, Capgemini, TCS, Infosys, LTIMindtree, EY/Deloitte/KPMG tech, HCLTech, Wipro, and product companies with Microsoft stacks).
+Everything you need to interview for AIS roles at **any** employer (the same interview happens at NTT DATA, Accenture, Cognizant, Capgemini, TCS, Infosys, LTIMindtree, EY/Deloitte/KPMG tech, HCLTech, Wipro, and product companies with Microsoft stacks).
 
 **How interviews for this role typically run:**
 1. **Screen (30 min):** resume walk, "why AIS from MuleSoft?", 5–10 rapid-fire fundamentals.
 2. **Technical round 1 (60 min):** deep Q&A across Logic Apps / Service Bus / APIM / Functions + a small scenario.
-3. **Technical round 2 / design (60 min):** whiteboard an E2E integration; EDI if the role touches B2B (JCI: it does); ops & security probing.
+3. **Technical round 2 / design (60 min):** whiteboard an E2E integration; EDI if the role touches B2B (manufacturing/enterprise roles often do); ops & security probing.
 4. **Hiring manager (45 min):** behavioral, delivery stories, estimation, team fit; often a few "trap" technical checks.
 
 Below: transition narrative → 200+ Q&A by topic (with crisp answers) → scenario/design questions with model answers → behavioral prep → company notes → question banks/links.
@@ -20,7 +20,7 @@ Below: transition narrative → 200+ Q&A by topic (with crisp answers) → scena
 
 **"Isn't your Azure experience just personal projects?"** — counter: describe Project 3/6 with production-grade details (archiving strategy, idempotent resubmission, alerting, cost model). Depth of *decisions* — not resource-count — signals seniority. Also: "the discipline of running 24×7 integrations for 7 years is my production experience; the platform is what changed."
 
-**Salary/level positioning:** you're not a fresher in integration — position as *senior integration engineer new to one toolset*, anchored by your 7 years. In internal transitions (your JCI case), emphasize domain knowledge: you already know the company's systems, partners, and processes — that's months of onboarding the external hire needs.
+**Salary/level positioning:** you're not a fresher in integration — position as *senior integration engineer new to one toolset*, anchored by your 7 years. In **internal transitions** (moving within your current employer), emphasize domain knowledge: you already know the company's systems, partners, and processes — that's months of onboarding the external hire needs.
 
 ---
 
@@ -192,19 +192,19 @@ Prepare 6 stories from your MuleSoft years (they transfer 100%):
 5. Mentoring/upskilling someone.
 6. **Your self-driven AIS upskilling itself** — the discipline of it is a story interviewers respect.
 
-For the JD's soft-skill rows ("logical and reasoning skills, communication, leadership qualities to manage a team"): expect a live problem decomposition ("how many EDI messages might JCI process daily? estimate it") — practice thinking aloud in structured steps.
+For the JD's soft-skill rows ("logical and reasoning skills, communication, leadership qualities to manage a team"): expect a live problem decomposition ("how many EDI messages might a manufacturer process daily? estimate it") — practice thinking aloud in structured steps.
 
 ---
 
 ## 5. Company-specific notes
 
-**Johnson Controls (your target):** building tech/HVAC/security products — expect supplier/customer EDI (orders/invoices/ASNs), SAP-centric ERP flows, field-service platforms, IoT-adjacent data (OpenBlue). Frame examples around supply chain + manufacturing. Internal transition: name systems/processes you already know — that's your moat. The JD ladder means they'll calibrate you Developer/Sr./Architect *during* the interview — answer with architecture framing wherever you can to bias upward.
+**Manufacturing / building-tech enterprises (common AIS profile):** HVAC, security, or industrial products — expect supplier/customer EDI (orders/invoices/ASNs), SAP-centric ERP flows, field-service platforms, IoT-adjacent telemetry. Frame examples around supply chain + manufacturing. **Internal transition:** name systems/processes you already know — that's your moat. The JD ladder means they'll calibrate you Developer/Sr./Architect *during* the interview — answer with architecture framing wherever you can to bias upward.
 
 **GSIs (NTT DATA, Accenture, Cognizant, Capgemini, TCS, Infosys, Wipro, HCLTech, LTIMindtree):** breadth-first rapid fire (the §2 bank is exactly their style), often BizTalk-migration projects, client-facing communication checks, and "which certs do you hold?" (AZ-204 moves the needle — Module 17).
 
 **Consulting/product (EY, Deloitte, KPMG, ISVs):** heavier on design rounds (S1–S6 style), cost/licensing fluency, and DevOps maturity; expect APIM + landing-zone vocabulary.
 
-**What everyone asks that JCI's JD understates:** Event Grid vs Service Bus vs Event Hubs; Durable Functions; Bicep/IaC; "how do you monitor"; managed identity. All covered — don't skip Modules 05/09/10/11.
+**What everyone asks that many enterprise JDs understate:** Event Grid vs Service Bus vs Event Hubs; Durable Functions; Bicep/IaC; "how do you monitor"; managed identity. All covered — don't skip Modules 05/09/10/11.
 
 ---
 

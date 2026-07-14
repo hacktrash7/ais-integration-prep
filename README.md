@@ -1,6 +1,6 @@
 # MuleSoft → Azure Integration Services (AIS) — Complete Transition Course
 
-> **Who this is for:** A MuleSoft developer (~7 years experience) transitioning to **Azure Integration Services (AIS)** — targeted at the Johnson Controls AIS role, but built to make you employable for *any* AIS role in the market (NTT DATA, Accenture, Cognizant, TCS, Infosys, Capgemini, EY, Deloitte product teams, etc.).
+> **Who this is for:** A MuleSoft developer (~7 years experience) transitioning to **Azure Integration Services (AIS)** — built around a typical enterprise AIS job description (Developer → Sr. Developer → Architect), and designed to make you employable for *any* AIS role in the market (NTT DATA, Accenture, Cognizant, TCS, Infosys, Capgemini, EY, Deloitte product teams, etc.).
 >
 > **Starting point assumed:** Strong integration fundamentals (you have them from MuleSoft), beginner-level .NET/C#.
 > **End point:** Architect-level understanding — design, build, secure, deploy, monitor, and defend AIS solutions in interviews.
