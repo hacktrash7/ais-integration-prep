@@ -30,7 +30,7 @@
 | 04 | [Azure Functions & C#](./04-Azure-Functions-and-CSharp/README.md) | C#/.NET from scratch → durable functions | ".Net coding, Scripting, Azure Functions" |
 | 05 | [Messaging](./05-Messaging-ServiceBus-EventGrid/README.md) | Service Bus queues/topics, Event Grid, Event Hubs, JMS comparison | "Communication protocols (JMS, Azure Service Bus, Events)" |
 | 06 | [API Management](./06-API-Management/README.md) | APIM policies, products, subscriptions, security, versioning | "APIM fundamental knowledge" |
-| 07 | [Data Transformation](./07-Data-Transformation-and-Maps/README.md) | Data Operations, Liquid, XSLT, Integration Account maps — vs DataWeave | "Transformation and Maps" |
+| 07 | [Data Transformation](./07-Data-Transformation-and-Maps/README.md) | Data Operations, Liquid, XSLT, Integration Account maps — vs DataWeave. Includes the [Liquid Data Mapping deep-dive](./07-Data-Transformation-and-Maps/Liquid-Data-Mapping/README.md) (20 scenarios + mapping sheet + DataWeave correlation) | "Transformation and Maps" |
 | 08 | [EDI & B2B](./08-EDI-B2B-Integration/README.md) | X12, EDIFACT, AS2, trading partners, agreements, archiving, re-processing | "EDI formats (X12, EDIFACT, SWIFT)", "EDI Integration Design" |
 | 09 | [Security](./09-Security/README.md) | OAuth 2.0, Entra ID, managed identity, Key Vault, HTTPS/SSL, network isolation | "Logging, Security (policy, OAuth, HTTPS, SSL)" |
 | 10 | [DevOps & CI/CD](./10-DevOps-CICD/README.md) | Azure DevOps, pipelines, ARM/Bicep, deployment of Logic Apps/Functions/APIM | "Azure DevOps (CI/CD)" |

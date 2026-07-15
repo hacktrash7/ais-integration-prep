@@ -1,5 +1,7 @@
 # 07 — Data Transformation & Maps (Life After DataWeave)
 
+> **Deep-dive subfolder:** [`Liquid-Data-Mapping/`](./Liquid-Data-Mapping/README.md) — the complete Liquid mapping course: 20 mapping scenarios with working templates, a printable [mapping quick-reference sheet](./Liquid-Data-Mapping/MAPPING-SHEET.md), and a [DataWeave→Liquid correlation sheet](./Liquid-Data-Mapping/DATAWEAVE-TO-LIQUID.md).
+
 **JD coverage:** "Transformation and Maps", "Payload / Message formats", "Data Process Flow (Split, Combine, Encryption/Decryption…)".
 
 Hard truth first: **there is no single DataWeave equivalent in Azure.** Instead there's a *toolbox*, and choosing the right tool per case is itself an interview topic. Your transformation *thinking* (source shape → target shape, mapping spec, null-safety, functions) transfers 100%.
@@ -73,6 +75,8 @@ Liquid = a templating language (from Shopify, used in Logic Apps via DotLiquid).
 ```
 
 Filters (`| upcase`, `| date:`, `| times:`) ≈ DataWeave functions; `{% for %}` ≈ `map`; `{% if %}` ≈ `when/otherwise`. Gotchas: Logic Apps Liquid is **case-sensitive**, root is `content`, and complex nesting gets ugly — that's your cue to switch to a Function.
+
+> **Go deeper:** the [`Liquid-Data-Mapping/`](./Liquid-Data-Mapping/README.md) subfolder covers all 20 mapping scenarios (filter/aggregate/group-by/flatten/CSV/XML/escaping…), DotLiquid-vs-Shopify differences, and a full DataWeave correlation sheet.
 
 📖 [Transform JSON/XML with Liquid](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-liquid-transform) · [Liquid language docs](https://shopify.github.io/liquid/)
 
