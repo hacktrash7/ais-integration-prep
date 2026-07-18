@@ -185,6 +185,7 @@ naming conventions (resources, workflows, actions!), tagging policy, canonical s
 - 🎥 **John Savill** — "AZ-305 Study Cram" (architect-level Azure in hours)
 - 🎥 Search **"Azure integration services architecture best practices"** — Microsoft Build/Ignite sessions
 - 📖 Book-level: *Enterprise Integration Patterns* (Hohpe/Woolf) — you likely know it from Mule; re-skim with Azure glasses ([enterpriseintegrationpatterns.com](https://www.enterpriseintegrationpatterns.com/))
+- 📁 In this course: [Module 18 — Integration Patterns](../18-Integration-Patterns/README.md) — the complete pattern catalog (EIP + cloud patterns) with Azure implementations and MuleSoft references; it's the vocabulary layer under every design in this module
 
 ---
 

@@ -139,7 +139,9 @@ These showed up repeatedly in AIS job descriptions at NTT DATA, Cloud Kinetics, 
 ### Phase 6 — Architect Level & Interview Sprint
 **Goal:** Design end-to-end, estimate, document, and interview.
 
-- **Study:** Modules 13, 14; build remaining projects in 15; drill 16; plan certs from 17.
+- **Study:** Modules 13, 14, and 18 (the integration-patterns catalog — your design-round ammunition); build remaining projects in 15; drill 16; plan certs from 17.
+
+> **Note on Module 18 (Integration Patterns):** you can — and should — dip into it earlier: read file 01 (channels) with Phase 2, file 02 (routing) with Phase 2–3, file 03 (transformation) with Phase 3, and files 04–05 in Phases 5–6. The pattern names attach best right after you've built the corresponding thing.
 - **Labs:**
   - Write a full HLD + LLD (templates provided in Module 13) for Portfolio Project 6 (the capstone).
   - Do 3 mock system-design sessions using scenarios from Module 16.

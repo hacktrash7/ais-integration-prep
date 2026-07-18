@@ -41,6 +41,7 @@
 | 15 | [Hands-On Projects](./15-Hands-On-Projects/README.md) | 6 portfolio projects from starter to architect level | Everything, practically |
 | 16 | [Interview Guide](./16-Interview-Guide/README.md) | 250+ Q&A, scenario questions, company-specific prep, salary/negotiation notes | Getting the role |
 | 17 | [Certifications & Resources](./17-Certifications-and-Resources/README.md) | AZ-900 → AZ-204 → AZ-305 path, all links, YouTube channels, blogs, communities | Credibility |
+| 18 | [Integration Patterns](./18-Integration-Patterns/README.md) | Full EIP + cloud-pattern catalog implemented in Azure, each with MuleSoft reference: channels, routing, transformation, reliability, API/process | Design rounds; "Design Patterns" in the JD |
 
 ---
 

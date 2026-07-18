@@ -37,7 +37,7 @@ In Mule-land clustering = multiple runtime nodes sharing state. In Azure, you ra
 
 ## 4. Design patterns catalog (name-drop fluency)
 
-From the [Azure cloud design patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) — the ones integration interviews expect you to know *by name with a one-liner*:
+From the [Azure cloud design patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/) — the ones integration interviews expect you to know *by name with a one-liner*. **This table is the summary; the full deep-dive with diagrams, Azure implementations, and MuleSoft references per pattern is [Module 18 — Integration Patterns](../18-Integration-Patterns/README.md).**
 
 | Pattern | One-liner | Where you've met it |
 |---|---|---|
